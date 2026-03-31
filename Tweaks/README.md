@@ -18,7 +18,6 @@ Right-click the Start button and select Terminal (Admin) or PowerShell (Admin).
 2. Enable Script Execution
 To allow these scripts to run, enter the following command:
 Set-ExecutionPolicy RemoteSigned -Scope Process
-
 (This only enables it for the current session for your safety.)
 3. Run the Script
 Navigate to this folder and run the desired script by typing its name. For example, to create a restore point:
