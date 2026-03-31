@@ -1,0 +1,40 @@
+**Do NOT use automated download scripts for security software.**  
+Automated downloads can trigger antivirus false positives, violate terms of service, and pose security risks (e.g., downloading from unofficial/malicious sources).
+
+## Official Manual Download Steps
+
+1. **Go to an official/trusted source:**
+   - Official website: https://www.adlice.com/software/roguekiller/
+   - Trusted mirror: https://www.bleepingcomputer.com/download/roguekiller/
+   - FileHorse: https://www.filehorse.com/download-roguekiller/
+
+2. **Click the download button** for `RogueKiller_setup.exe`
+
+3. **Double-click the downloaded file** to start installation
+
+4. **Follow the installation prompts** and accept the license agreement
+
+5. **Run RogueKiller** - it will automatically start a prescan on first launch
+
+## Why Manual Download is Required
+
+| Risk | Explanation |
+|------|-------------|
+| False Positives | Automated scripts often trigger antivirus alarms |
+| Security Risk | Scripts may download from unofficial/malicious sources |
+| Terms Violation | Automating downloads may violate RogueKiller's terms of service |
+| No Verification | You can't verify the integrity of automatically downloaded files |
+
+## For Enterprise/Command-Line Use
+
+If you need command-line functionality (e.g., for IT administrators), use **RogueKillerCMD**:
+
+```bash
+# After manual download
+RogueKillerCMD.exe -scan
+RogueKillerCMD.exe -clean
+```
+
+For legitimate automated deployment, contact Adlice Software for official enterprise licensing.
+
+---
