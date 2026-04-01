@@ -40,8 +40,7 @@ Prerequisites
  * Windows 10 or 11
  * Administrator Privileges
  * Execution Policy: Open PowerShell as Admin and run this command to allow scripts:
-   
- **Set-ExecutionPolicy Unrestricted -Scope Process**
+    **Set-ExecutionPolicy Unrestricted -Scope Process**
 
 ***Execution Steps***
  * Safety First: Go to the Maintenance folder and run Create Restore Point.ps1.
