@@ -24,11 +24,11 @@ Rather than relying on a single "all-in-one" solution that often fails to excel 
 To get the most out of this setup, I recommend following this installation order:
 | Step | Action | Objective |
 |---|---|---|
-| 01 | [Apply ShutUp10++](https://en.softonic.com/download/bitdefender-antivirus-free/windows/post-download?dt=externalDownload) | Close privacy backdoors and stop data leaks immediately. |
-| 02 | Install Portmaster | Gain visibility into what your apps are doing online. |
-| 03 | Install Bitdefender | Establish your primary real-time file protection. |
-| 04 | Deploy Anti-Exploit | Add specialized protection for your web-facing apps. |
-| 05 | Run EEK Scan | Perform an initial deep-clean to ensure a clean baseline. |
+| 01 | [Apply ShutUp10++](https://www.oo-software.com/en/download/current/ooshutup10) | Close privacy backdoors and stop data leaks immediately. |
+| 02 | [Install Portmaster](https://safing.io/) | Gain visibility into what your apps are doing online. |
+| 03 | [Install Bitdefender](https://en.softonic.com/download/bitdefender-antivirus-free/windows/post-download?dt=externalDownload) | Establish your primary real-time file protection. |
+| 04 | [Deploy Anti-Exploit](https://estore.malwarebytes.com/affiliate.php?ACCOUNT=MALWARQO&AFFILIATE=870&PATH=https://files1.majorgeeks.com/0b93caee71a9d214d0bbbc5622ea29507e3b8a7a/spyware/mbae-setup-1.13.1.585.exe) | Add specialized protection for your web-facing apps. |
+| 05 | [Run EEK Scan](https://www.emsisoft.com/en/home/emergency-kit/download/) | Perform an initial deep-clean to ensure a clean baseline. |
 
 🚀 Why This Matters
 Security is not a product; it is a process. By using this modular approach, you ensure that if one layer is bypassed, the others are there to catch the threat. This repository aims to provide the highest level of security possible while maintaining a smooth, high-performance user experience.
