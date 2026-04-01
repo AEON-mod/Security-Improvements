@@ -34,12 +34,14 @@ Contains instructions and binaries for deep system cleaning:
  * Malwarebytes-5-5-3-140.exe: General malware and PUP removal.
  * RougueKiller Download instruction.txt: Instructions for advanced rootkit detection.
  * The Ultimate option (HitmanPro_x64.exe): Cloud-based second opinion scanner.
-  [!IMPORTANT]
+
+ [!IMPORTANT] 
 🚀 How to Execute 
 Prerequisites
  * Windows 10 or 11
  * Administrator Privileges
  * Execution Policy: Open PowerShell as Admin and run this command to allow scripts:
+ * 
     [!NOTE]
    Set-ExecutionPolicy Unrestricted -Scope Process
 
