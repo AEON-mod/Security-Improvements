@@ -19,6 +19,18 @@ Rather than relying on a single "all-in-one" solution that often fails to excel 
 5. [Malwarebytes Anti-Exploit](https://estore.malwarebytes.com/affiliate.php?ACCOUNT=MALWARQO&AFFILIATE=870&PATH=https://files1.majorgeeks.com/0b93caee71a9d214d0bbbc5622ea29507e3b8a7a/spyware/mbae-setup-1.13.1.585.exe)
  * Purpose: The Shield (Zero-Day Vulnerability Protection).
  * Key Benefits: This doesn't look for "files"; it looks for "behaviors." It shields your most vulnerable applications (browsers, PDF readers, Office) from exploit kits that try to use software bugs to hijack your system.
+ * 
+🌐 Browser Security
+The browser is your primary entry point for threats. Install these essentials:
+6. uBlock Origin
+Role: Content Filtering & Script Blocking.
+Why it's essential: Portmaster blocks connections at the system level, but uBlock Origin cleans up the web inside your browser. It prevents malicious JavaScript from running, stops "malvertising," and significantly speeds up page loading by stripping away bloat.
+7. Bitwarden
+Role: Identity & Credential Vault.
+Why it's essential: Your PC might be unhackable, but your accounts are only as strong as your passwords. Bitwarden allows you to generate and store high-entropy, unique passwords for every service, ensuring a breach on one site doesn't lead to a total digital takeover.
+8. FastForward
+Role: Link Shortener & Tracker Bypass.
+Why: Automatically circumvents annoying "wait" timers (like adf.ly) and skips intermediate tracker pages. This significantly reduces your exposure to "malvertising," fake download buttons, and IP-logging scripts found on redirect sites.   
 
 🏗️ Deployment Strategy
 To get the most out of this setup, I recommend following this installation order:
@@ -45,12 +57,6 @@ Set-MpPreference -SubmitSamplesConsent SendAllSamples
 
 # Enable PUA Blocking (Stops junkware/bundled installers)
 Set-MpPreference -PUAProtection Enabled
-
-🌐 Browser Security
-The browser is your primary entry point for threats. Install these essentials:
- * uBlock Origin: Set to "Medium Mode" to block all 3rd-party scripts by default.
- * Bitwarden: A secure, open-source vault for your passwords.
- * FastForward: Automatically bypasses trackers and malicious link shorteners.
 
 🚨 Emergency Workflow (If Infected)
 If your system is behaving suspiciously, follow these steps in this exact order:
