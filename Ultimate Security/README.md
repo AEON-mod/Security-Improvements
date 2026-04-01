@@ -56,12 +56,12 @@ Windows Defender is powerful but passive. You can force it into high-security mo
 
 **Enable 'Block at First Sight' (Advanced Cloud Protection)**
 
-Set-MpPreference -MAPSReporting Advanced
-Set-MpPreference -SubmitSamplesConsent SendAllSamples
+> Set-MpPreference -MAPSReporting Advanced
+> Set-MpPreference -SubmitSamplesConsent SendAllSamples
 
 **Enable PUA Blocking (Stops junkware/bundled installers)**
 
-Set-MpPreference -PUAProtection Enabled
+> Set-MpPreference -PUAProtection Enabled
 
 🚨 Emergency Workflow (If Infected)
 If your system is behaving suspiciously, follow these steps in this exact order:
