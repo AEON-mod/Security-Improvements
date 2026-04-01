@@ -20,7 +20,7 @@ Rather than relying on a single "all-in-one" solution that often fails to excel 
  * Purpose: The Shield (Zero-Day Vulnerability Protection).
  * Key Benefits: This doesn't look for "files"; it looks for "behaviors." It shields your most vulnerable applications (browsers, PDF readers, Office) from exploit kits that try to use software bugs to hijack your system.
  * 
-🌐 Browser Security
+**🌐 Browser Security**
 The browser is your primary entry point for threats. Install these essentials:
 
 6. uBlock Origin
