@@ -24,8 +24,8 @@ Rather than relying on a single "all-in-one" solution that often fails to excel 
 The browser is your primary entry point for threats. Install these essentials:
 
 6. uBlock Origin
-Role: Content Filtering & Script Blocking.
-Why it's essential: Portmaster blocks connections at the system level, but uBlock Origin cleans up the web inside your browser. It prevents malicious JavaScript from running, stops "malvertising," and significantly speeds up page loading by stripping away bloat.
+ * Role: Content Filtering & Script Blocking.
+ * Why it's essential: Portmaster blocks connections at the system level, but uBlock Origin cleans up the web inside your browser. It prevents malicious JavaScript from running, stops "malvertising," and significantly speeds up page loading by stripping away bloat.
 
 7. Bitwarden
  * Role: Identity & Credential Vault.
