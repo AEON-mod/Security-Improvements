@@ -24,7 +24,7 @@ Rather than relying on a single "all-in-one" solution that often fails to excel 
 To get the most out of this setup, I recommend following this installation order:
 | Step | Action | Objective |
 |---|---|---|
-| 01 | Apply ShutUp10++ | Close privacy backdoors and stop data leaks immediately. |
+| 01 | [Apply ShutUp10++](https://en.softonic.com/download/bitdefender-antivirus-free/windows/post-download?dt=externalDownload) | Close privacy backdoors and stop data leaks immediately. |
 | 02 | Install Portmaster | Gain visibility into what your apps are doing online. |
 | 03 | Install Bitdefender | Establish your primary real-time file protection. |
 | 04 | Deploy Anti-Exploit | Add specialized protection for your web-facing apps. |
