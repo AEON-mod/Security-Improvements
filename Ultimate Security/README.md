@@ -28,12 +28,12 @@ Role: Content Filtering & Script Blocking.
 Why it's essential: Portmaster blocks connections at the system level, but uBlock Origin cleans up the web inside your browser. It prevents malicious JavaScript from running, stops "malvertising," and significantly speeds up page loading by stripping away bloat.
 
 7. Bitwarden
-Role: Identity & Credential Vault.
-Why it's essential: Your PC might be unhackable, but your accounts are only as strong as your passwords. Bitwarden allows you to generate and store high-entropy, unique passwords for every service, ensuring a breach on one site doesn't lead to a total digital takeover.
+ * Role: Identity & Credential Vault.
+ * Why it's essential: Your PC might be unhackable, but your accounts are only as strong as your passwords. Bitwarden allows you to generate and store high-entropy, unique passwords for every service, ensuring a breach on one site doesn't lead to a total digital takeover.
 
 8. FastForward
-Role: Link Shortener & Tracker Bypass.
-Why: Automatically circumvents annoying "wait" timers (like adf.ly) and skips intermediate tracker pages. This significantly reduces your exposure to "malvertising," fake download buttons, and IP-logging scripts found on redirect sites.   
+ * Role: Link Shortener & Tracker Bypass.
+ * Why: Automatically circumvents annoying "wait" timers (like adf.ly) and skips intermediate tracker pages. This significantly reduces your exposure to "malvertising," fake download buttons, and IP-logging scripts found on redirect sites.   
 
 🏗️ Deployment Strategy
 To get the most out of this setup, I recommend following this installation order:
