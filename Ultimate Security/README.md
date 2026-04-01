@@ -7,16 +7,16 @@ Rather than relying on a single "all-in-one" solution that often fails to excel 
 1. [Bitdefender Antivirus Free](https://en.softonic.com/download/bitdefender-antivirus-free/windows/post-download?dt=externalDownload)
  * Purpose: The Foundation (Real-time Malware Defense).
  * Key Benefits: High-performance scanning engine with minimal system overhead. It uses advanced behavioral analysis to stop zero-day threats before they execute, providing a "silent but deadly" layer of protection against ransomware and trojans.
-2. Safing Portmaster
+2. [Safing Portmaster](https://safing.io/)
  * Purpose: The Gatekeeper (Network Monitor & Privacy Firewall).
  * Key Benefits: Visualizes every single connection your PC attempts. It allows you to block entire countries, cut off specific apps from the internet, and automatically blocks ad/tracker domains at the kernel level.
-3. Emsisoft Emergency Kit (EEK)
+3. [Emsisoft Emergency Kit (EEK)](https://www.emsisoft.com/en/home/emergency-kit/download/)
  * Purpose: The Specialist (Portable Remediation).
  * Key Benefits: A dual-engine (Emsisoft + Bitdefender) malware cleaner that requires no installation. Keep this on your system for "second-opinion" scans to catch dormant threats that traditional active shields might overlook.
-4. O&O ShutUp10++
+4. [O&O ShutUp10++](https://www.oo-software.com/en/download/current/ooshutup10)
  * Purpose: The Silencer (Telemetry & Privacy Hardening).
  * Key Benefits: Windows is notorious for data collection. This tool provides a granular interface to disable invasive tracking, location services, and unnecessary background "phoning home" to Microsoft servers.
-5. Malwarebytes Anti-Exploit
+5. [Malwarebytes Anti-Exploit](https://estore.malwarebytes.com/affiliate.php?ACCOUNT=MALWARQO&AFFILIATE=870&PATH=https://files1.majorgeeks.com/0b93caee71a9d214d0bbbc5622ea29507e3b8a7a/spyware/mbae-setup-1.13.1.585.exe)
  * Purpose: The Shield (Zero-Day Vulnerability Protection).
  * Key Benefits: This doesn't look for "files"; it looks for "behaviors." It shields your most vulnerable applications (browsers, PDF readers, Office) from exploit kits that try to use software bugs to hijack your system.
 
