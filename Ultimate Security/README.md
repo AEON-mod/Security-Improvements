@@ -30,7 +30,42 @@ To get the most out of this setup, I recommend following this installation order
 | 04 | [Deploy Anti-Exploit](https://estore.malwarebytes.com/affiliate.php?ACCOUNT=MALWARQO&AFFILIATE=870&PATH=https://files1.majorgeeks.com/0b93caee71a9d214d0bbbc5622ea29507e3b8a7a/spyware/mbae-setup-1.13.1.585.exe) | Add specialized protection for your web-facing apps. |
 | 05 | [Run EEK Scan](https://www.emsisoft.com/en/home/emergency-kit/download/) | Perform an initial deep-clean to ensure a clean baseline. |
 
+⚙️ OS Hardening Instructions (Native)
+1. Configure a "Standard User" Account
+Running as an Administrator is the #1 way to get infected.
+ * Step: Go to Settings > Accounts > Other Users.
+ * Action: Click Add account and create a user without a Microsoft account (if preferred).
+ * Usage: Use this account for 99% of your daily work. When you need to install something, Windows will ask for your Admin password—this is your "firewall" against unauthorized changes.
+2. Enable Aggressive Defender Mode
+Windows Defender is powerful but passive. You can force it into high-security mode using PowerShell (Admin). Copy and paste these lines:
+
+# Enable 'Block at First Sight' (Advanced Cloud Protection)
+Set-MpPreference -MAPSReporting Advanced
+Set-MpPreference -SubmitSamplesConsent SendAllSamples
+
+# Enable PUA Blocking (Stops junkware/bundled installers)
+Set-MpPreference -PUAProtection Enabled
+
+🌐 Browser Security
+The browser is your primary entry point for threats. Install these essentials:
+ * uBlock Origin: Set to "Medium Mode" to block all 3rd-party scripts by default.
+ * Bitwarden: A secure, open-source vault for your passwords.
+ * FastForward: Automatically bypasses trackers and malicious link shorteners.
+
+🚨 Emergency Workflow (If Infected)
+If your system is behaving suspiciously, follow these steps in this exact order:
+> [!IMPORTANT]
+> Step 0: Disconnect the Internet. Unplug your Ethernet cable or turn off Wi-Fi immediately.
+> 
+ * Terminate Threats: Run RKill (Direct Download). It stops malicious processes from hiding or blocking security tools.
+ * Dual-Engine Scan: Run Emsisoft Emergency Kit (from a USB if possible) for a deep scan.
+ * Clean Adware: Run AdwCleaner (Direct Download) to remove browser hijackers and "search bar" malware.
+ * Restore: Reconnect, update your AV definitions, and rotate your passwords.
+
 🚀 Why This Matters
 Security is not a product; it is a process. By using this modular approach, you ensure that if one layer is bypassed, the others are there to catch the threat. This repository aims to provide the highest level of security possible while maintaining a smooth, high-performance user experience.
 > Note: Always download these tools from the official links provided to ensure you are getting the most recent and secure versions.
 >
+
+🤝 Contributing
+Have a better tool or a specific registry tweak? Open an issue or submit a PR to help keep this guide up to date!
