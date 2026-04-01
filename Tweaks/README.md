@@ -40,8 +40,7 @@ Prerequisites
  * Windows 10 or 11
  * Administrator Privileges
  * Execution Policy: Open PowerShell as Admin and run this command to allow scripts:
- * 
-  
+   
  **Set-ExecutionPolicy Unrestricted -Scope Process**
 
 ***Execution Steps***
