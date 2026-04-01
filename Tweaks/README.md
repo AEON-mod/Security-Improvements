@@ -35,17 +35,16 @@ Contains instructions and binaries for deep system cleaning:
  * RougueKiller Download instruction.txt: Instructions for advanced rootkit detection.
  * The Ultimate option (HitmanPro_x64.exe): Cloud-based second opinion scanner.
 
- [!IMPORTANT] 
 🚀 How to Execute 
 Prerequisites
  * Windows 10 or 11
  * Administrator Privileges
  * Execution Policy: Open PowerShell as Admin and run this command to allow scripts:
  * 
-    [!NOTE]
-   Set-ExecutionPolicy Unrestricted -Scope Process
+  
+ **Set-ExecutionPolicy Unrestricted -Scope Process**
 
-Execution Steps
+***Execution Steps***
  * Safety First: Go to the Maintenance folder and run Create Restore Point.ps1.
  * Run: Right-click the desired .ps1 script and select "Run with PowerShell".
  * Restart: A System Restart is required for most Performance and Registry tweaks to take effect.
