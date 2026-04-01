@@ -54,11 +54,11 @@ Running as an Administrator is the #1 way to get infected.
 2. Enable Aggressive Defender Mode
 Windows Defender is powerful but passive. You can force it into high-security mode using PowerShell (Admin). Copy and paste these lines:
 
-# Enable 'Block at First Sight' (Advanced Cloud Protection)
+**Enable 'Block at First Sight' (Advanced Cloud Protection)**
 Set-MpPreference -MAPSReporting Advanced
 Set-MpPreference -SubmitSamplesConsent SendAllSamples
 
-# Enable PUA Blocking (Stops junkware/bundled installers)
+**Enable PUA Blocking (Stops junkware/bundled installers)**
 Set-MpPreference -PUAProtection Enabled
 
 🚨 Emergency Workflow (If Infected)
