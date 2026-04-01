@@ -17,3 +17,5 @@ What RKill does:
 
 ⚠️ Important Note
 If your browser or Windows Defender tries to block the download or execution, this is normal "false positive" behavior because RKill interacts with system processes. It is a well-known, safe industry tool.
+
+[To official Site](https://www.bleepingcomputer.com/download/rkill/)
