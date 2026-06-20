@@ -14,9 +14,9 @@ Select your operating system to view the specialized hardening guide, installer 
 
 | Platform | Hardening Focus | Guide Link |
 | :--- | :--- | :--- |
-| **🏁 Windows** | Telemetry removal, exploit protection, active defense | **[Windows Hardening Guide](../Windows/README_windows.md)** |
-| **🐧 Linux** | Kernel sysctl hardening, app sandboxing, network auditing | **[Linux Hardening Guide](../Linux/README_linux.md)** |
-| **🍎 macOS** | Outbound firewalls, persistence auditing, native protection | **[macOS Hardening Guide](../MacOS/README_macos.md)** |
+| **🏁 Windows** | Telemetry removal, exploit protection, active defense | **[Windows Hardening Guide](./Windows/README.md)** |
+| **🐧 Linux** | Kernel sysctl hardening, app sandboxing, network auditing | **[Linux Hardening Guide](./Linux/README.md)** |
+| **🍎 macOS** | Outbound firewalls, persistence auditing, native protection | **[macOS Hardening Guide](./MacOS/README.md)** |
 
 ---
 
