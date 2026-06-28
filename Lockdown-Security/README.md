@@ -1,4 +1,4 @@
-# 🛡️ Lockdown-Security (v2.0)
+# 🛡️ Lockdown-Security
 
 > **Proactive Defense · Network Transparency · Privacy Sovereignty**
 
