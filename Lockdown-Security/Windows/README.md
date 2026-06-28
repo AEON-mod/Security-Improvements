@@ -1,4 +1,4 @@
-# 🏁 Maximum Windows Hardening Guide (v2.0)
+# 🏁 Maximum Windows Hardening Guide
 
 A curated, high-efficiency security configuration guide designed to secure Windows 10/11 to the absolute maximum level.
 
