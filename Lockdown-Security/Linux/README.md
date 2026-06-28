@@ -1,4 +1,4 @@
-# 🐧 Maximum Linux Hardening Guide (v2.0)
+# 🐧 Maximum Linux Hardening Guide
 
 A curated, high-efficiency security configuration guide designed to secure desktop Linux distributions to the absolute maximum level.
 
