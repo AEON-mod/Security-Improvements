@@ -1,4 +1,4 @@
-# 🍎 Maximum macOS Hardening Guide (v2.0)
+# 🍎 Maximum macOS Hardening Guide
 
 A curated, high-efficiency security configuration guide designed to secure Apple macOS (Intel and Apple Silicon) to the absolute maximum level.
 
