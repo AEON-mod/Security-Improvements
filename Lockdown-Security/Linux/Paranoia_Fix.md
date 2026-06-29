@@ -1,4 +1,4 @@
-# 🏰 Advanced System Hardening — The "Fort Knox" Tier
+# 🏰 Extreme System Hardening — The "Fort Knox" Tier
 
 > Kernel · Bootloader · Encryption · Trust Chain
 
