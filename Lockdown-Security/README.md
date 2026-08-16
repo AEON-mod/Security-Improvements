@@ -8,6 +8,8 @@ A modular, multi-platform collection of hardening guides and **automated scripts
 
 ## 🗺️ Choose Your Platform
 
+> **Note:** Each platform folder contains a downloadable `*_guide.README` file (e.g., `windows_guide.README`) detailing the recommended apps, settings applied, and execution instructions for offline reference.
+
 | Platform | Guide | Script | Focus |
 | :--- | :--- | :--- | :--- |
 | **🏁 Windows** | [Hardening Guide](Windows/README.md) | [`harden_windows.ps1`](Windows/harden_windows.ps1) | Telemetry removal, exploit protection, Defender hardening |
@@ -44,12 +46,15 @@ Hardened-Security/
 ├── README.md                  ← You are here
 ├── Windows/
 │   ├── README.md              ← Windows hardening guide
+│   ├── windows_guide.README   ← Downloadable offline user guide
 │   └── harden_windows.ps1    ← Automated PowerShell hardening script
 ├── Linux/
 │   ├── README.md              ← Linux hardening guide
+│   ├── linux_guide.README     ← Downloadable offline user guide
 │   └── harden_linux.sh       ← Automated Bash hardening script
 └── MacOS/
     ├── README.md              ← macOS hardening guide
+    ├── macOS_guide.README     ← Downloadable offline user guide
     └── harden_macos.sh       ← Automated Bash hardening script
 ```
 
