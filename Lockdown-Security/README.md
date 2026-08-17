@@ -46,15 +46,15 @@ Hardened-Security/
 ├── README.md                  ← You are here
 ├── Windows/
 │   ├── README.md              ← Windows hardening guide
-│   ├── windows_guide.README   ← Downloadable offline user guide
+│   ├── windows_guide.md.      ← Downloadable offline user guide
 │   └── harden_windows.ps1    ← Automated PowerShell hardening script
 ├── Linux/
 │   ├── README.md              ← Linux hardening guide
-│   ├── linux_guide.README     ← Downloadable offline user guide
+│   ├── linux_guide.md.        ← Downloadable offline user guide
 │   └── harden_linux.sh       ← Automated Bash hardening script
 └── MacOS/
     ├── README.md              ← macOS hardening guide
-    ├── macOS_guide.README     ← Downloadable offline user guide
+    ├── macOS_guide.md.        ← Downloadable offline user guide
     └── harden_macos.sh       ← Automated Bash hardening script
 ```
 
